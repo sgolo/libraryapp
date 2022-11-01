@@ -1,0 +1,10 @@
+body {
+}
+
+.book {
+  border: solid 1px black;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-self: center;
+}
