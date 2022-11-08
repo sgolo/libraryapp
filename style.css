@@ -1,10 +1,63 @@
-body {
+h1 {
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 3rem;
 }
-
 .book {
-  border: solid 1px black;
+  border: solid 3px #3584d2;
+  border-radius: 15px;
   display: flex;
   flex-direction: column;
-  justify-self: center;
-  align-self: center;
+  align-items: center;
+  width: 8vw;
+}
+
+.book > * {
+  padding: 5px;
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.addBook-button {
+  display: block;
+  width: 8vw;
+  height: 6vh;
+  margin: auto;
+  background-color: #3584d2;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+  border-radius: 10px;
+}
+
+.form-wrapper {
+  border: solid 3px #3584d2;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  width: 20vw;
+  height: 25vh;
+  margin: auto;
+}
+
+.form-bookinput {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.form-bookinput > * {
+  padding: 5px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  border-radius: 5px;
 }

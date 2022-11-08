@@ -10,11 +10,19 @@
   </head>
   <body>
     <h1>Library</h1>
-    <button>Add Book</button>
+    <button class="addBook-button">Add Book</button>
     <div class="book">
       <p class="book-author">Author</p>
       <p class="book-title">Title</p>
       <p class="book-pagenum">123</p>
+    </div>
+    <div class="form-wrapper">
+      <form class="form-bookinput">
+        <input type="text" name="Author" placeholder="Author" />
+        <input type="text" name="Title" placeholder="Book Name" />
+        <input type="number" name="Pages" placeholder="Number of pages" />
+        <button type="submit">Add to library</button>
+      </form>
     </div>
   </body>
 </html>
